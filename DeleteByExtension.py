@@ -10,7 +10,7 @@ GIF_PATH = os.path.join(SCRIPT_DIR, "Gif", "106823.gif")
 
 def show_gif_window(stop_event):
     root = Tk()
-    root.title("Loading")
+    root.title("Loading.....")
     width = 300
     height = 300
 
