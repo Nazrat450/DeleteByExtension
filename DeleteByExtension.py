@@ -11,9 +11,11 @@ GIF_PATH = os.path.join(SCRIPT_DIR, "Gif", "106823.gif")
 def show_gif_window(stop_event):
     root = Tk()
     root.title("Loading")
+    width = 300
+    height = 300
 
-    win_width = 300
-    win_height = 300
+    win_width = width
+    win_height = height
 
     # Calculate center position based on screen size
     screen_width = root.winfo_screenwidth()
